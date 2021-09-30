@@ -10,3 +10,7 @@ CREATE TABLE groups(
 CREATE TABLE grades(
 	grade decimal PRIMARY KEY
 );
+
+CREATE TABLE departments(
+	department nvarchar PRIMARY KEY
+);
