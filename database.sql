@@ -19,3 +19,11 @@ CREATE TABLE acad_positions(
 	acad_position nvarchar PRIMARY KEY,
 	overtime_rate integer
 )
+
+CREATE TABLE employees(
+	employee_id int identity(1,1) PRIMARY KEY,
+	surname nvarchar,
+	first_name nvarchar,
+	employment_date date,
+	PESEL char(11)
+);
